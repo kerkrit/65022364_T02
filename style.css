@@ -1,0 +1,59 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --global-size: 6px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    
+    margin: 5%;
+}
+
+form {
+    margin: 8px;
+    padding: 8px;
+}
+
+.input-text {
+    display: inline-block;
+    padding: var(--global-size);
+    width: 12rem;
+    font-size: 1.2em;
+}
+
+.label-top {
+    display: inline-block;
+    width: 6rem;
+}
+
+form > * {
+    margin: 8px 8px;
+}
+
+#input-date, #select , #btn-submit {
+    padding: var(--global-size);
+}
+
+h1 {
+    align-self: flex-start;
+    font-size: 2em;
+    color: red;
+}
+
+p {
+    font-size: 2em;
+    color: green;
+}
